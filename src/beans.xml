@@ -26,7 +26,7 @@
 		destroy-method="close">
 		<property name="driverClass" value="org.gjt.mm.mysql.Driver" />
 		<property name="jdbcUrl"
-			value="jdbc:mysql://localhost:3306/secondshop2?useUnicode=true&amp;characterEncoding=UTF-8" />
+			value="jdbc:mysql://localhost:3306/graduation_secondshop2?useUnicode=true&amp;characterEncoding=UTF-8" />
 		<property name="user" value="root" />
 		<property name="password" value="123456" />
 		<!--初始化时获取的连接数，取值应在minPoolSize与maxPoolSize之间。Default: 3 -->
