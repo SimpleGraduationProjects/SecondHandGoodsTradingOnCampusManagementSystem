@@ -184,7 +184,6 @@ public class WehallAction extends IdeaAction {
         bill.setAddress(encodeGet(request.getParameter("address")));
         bill.setTel(request.getParameter("tel"));
         bill.setNote(encodeGet(request.getParameter("note")));
-
         bill.setStatecn("未付款");
         billService.save(bill);
         renderJsonpString("提交成功!");
